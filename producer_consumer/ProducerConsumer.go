@@ -1,4 +1,4 @@
-package main
+package producer_consumer
 
 import (
 	"fmt"
@@ -63,7 +63,6 @@ func main() {
 	wg.Add(1)
 
 	wg.Wait()
-	close(channelFoo)
 	fmt.Println("End")
 
 }

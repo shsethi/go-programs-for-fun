@@ -1,0 +1,2 @@
+- Added  direction operator`<-`
+- used `range` operator and `close` chanel to implement for loop and termination 

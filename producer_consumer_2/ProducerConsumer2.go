@@ -62,7 +62,7 @@ func main() {
 
 	//close channel when Producers are done
 	wgP.Wait()
-	// close channel autmatically causes range over channel to terminate
+	// close channel automatically causes range over channel to terminate
 	close(channelFoo)
 
 	wgC.Wait()
